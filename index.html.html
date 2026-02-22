@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Swap and Solve website">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Jax Hobbs">
+    <title>Rock Revolution Homepage</title>
+    <link href="swap_and_solve1.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <h1 id="page title">Rock Revolution</h1>
+    <p id="site description">Welcome to Rock Revolution, your one-stop shop for all kinds of music.
+    Whether you're looking for Rock 'n' Roll, Pop or anything else, we've got you covered!</p>
+    <nav>
+        <ul id="nav_links">
+            <li><a href="Merch_Page.html">Merch</a></li>
+            <li><a href="Songs.html">Songs</a></li>
+            <li><a href="Bands.html">Bands</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section id="band_grid">
+        <h1 id="bands_represented">Bands We Represent</h1>
+        <article id="benny" class="band_item">
+            <h2 class="band_name"><a href="band_grid/Benny_and_the_drums.html">Benny and the Drums</a></h2>
+            <img class="band_image" src="images/Benny_and_the_drums.png" alt="Picture of Benny and the drums" width=200 height=200 />
+            <p class="band_description">Benny began playing the drums at age six in his parents house in New Jersey.
+            His music combines drum solos with his incredible voice, leading to an unforgettable experience.
+            His style can be classified as Rock Music with heavy focus on drums.</p>
+        </article>
+        <article id="hairy" class="band_item">
+            <h2 class="band_name"><a href="band_grid/Hairy_Hooligans.html">Hairy Hooligans</a></h2>
+            <img class="band_image" src="images/Hairy_Hooligans.png" alt="Picture of Hairy Hooligans" width=200 height=200 />
+            <p class="band_description">The Hairy Hooligans are one of the best known rock bands to come out of Australia.
+            Their music focuses on vocals alongside their legendary bass player, Bearded Dave.</p>
+        </article>
+        <article id="jonestown" class="band_item">
+            <h2 class="band_name"><a href="band_grid/The_Jonestown_Trombones.html">The Jonestown Trombones</a></h2>
+            <img class="band_image" src="images/The_Jonestown_Trombones.png" alt="Picture of The Jonestown Trombones" width=200 height=200 />
+            <p class="band_description">The Jonestown Trombones are one of the originators of Ska-Pop. Their music has a heavy focus
+            on instruments like trombones and saxophones that their town of Little Rock, Arkansas has come to love.</p>
+        </article>
+        <article id="lisa" class="band_item">
+            <h2 class="band_name"><a href="band_grid/Lisa_Syncopation.html">Lisa Syncopation</a></h2>
+            <img class="band_image" src="images/Lisa_Syncopation.png" alt="Picture of Lisa Syncopation" width=200 height=200 />
+            <p class="band_description">Lisa's career has followed many twists and turns from her start in country, through her pop phase,
+            and she is currently writing a mix of guitar heavy pop songs as well as performing a lot of her older country hits.
+            She was born and raised on a Christmas tree farm in Pennsylvania.</p>
+        </article>
+        <article id="jackdaws" class="band_item">
+            <h2 class="band_name"><a href="band_grid/The_Jackdaws.html">The Jackdaws</a></h2>
+            <img class="band_image" src="images/The_Jackdaws.jpg" alt="Picture of The Jackdaws" width=200 height=200 />
+            <p class="band_description">The Jackdaws are self-described "Heavy Metal Pirates", one of the inventors of the genre.
+            They began their career in Scotland and have since thrilled the world with their unique genre of music.</p>
+        </article>
+    </section>
+
+    <section id="contact_form">
+        <h1 id="contact_request">Enter your info to hear about our latest news:</h1>
+        <div class="contact_form_info">
+            <label for="inputName">Name:</label>
+            <input type="text" id="inputName" placeholder="Enter your name..." /><br>
+            <label for="inputEmail">Email:</label>
+            <input type="email" id="inputEmail" placeholder="Enter your email..." /><br>
+            <label for="inputPhone">Phone:</label>
+            <input type="tel" id="inputPhone" placeholder="Enter your phone number..." /><br>
+            <button onclick="addNewContact()">Join our Mailing List</button>
+        </div>
+        <script src="swap_and_solve_contactform.js"></script>
+    </section>
+</main>
+
+</body>
+
+<footer>
+    <p>&copy; 2026 Rock Revolution</p>
+</footer>
+</html>
